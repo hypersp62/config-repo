@@ -1,0 +1,16 @@
+# MongoDB
+spring:
+  data:
+    mongodb:
+      password: tech_user
+      uri:
+
+# Logging
+logging:
+  level:
+    com.example.tech: DEBUG
+    org.springframework: INFO
+
+# Debug mode
+  debug:
+    enable: true
